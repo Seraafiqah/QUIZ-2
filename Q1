@@ -1,0 +1,40 @@
+package Labtest;
+
+import java.util.Scanner;
+
+public class q1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner (System.in);
+		
+		int salary;
+		int service;
+		int age;
+		double bonus = 0.05;
+		
+		
+		System.out.println("---BONUS SALARY---");
+		
+		System.out.println("Your salary: RM");
+		salary = sc.nextInt();
+		
+		if  (service > 5) {
+		System.out.println("Year of service: ");
+		service = sc.nextInt();
+		bonus = salary * bonus;
+		System.out.println(salary * bonus);
+		
+		System.out.println("Age: ");
+		age = sc.nextInt();
+		
+		
+		
+
+			
+			
+			}
+		}
+	}
+
+}
